@@ -1,0 +1,114 @@
+ /* style.css */
+ body{
+      background: rgb(53, 234, 237);
+      color: green;
+      font-size: 25px;
+      font-family: Indie Flower;
+ }
+
+h1{
+  font-family: Courier;
+  color: red;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+
+
+h2{
+  font-family: Courier;
+  color: pink;
+font-weight:  lighter;
+font-size: 20px;
+}
+
+a {
+  color: pink;
+}
+
+a:hover {
+  text-decoration: ;
+  color: pink;
+}
+
+
+#Hero {
+     text-align:  center;
+     background-image: url("https://images.unsplash.com/photo-1488711500009-f9111944b1ab?dpr=1.5&auto=format&fit=crop&w=1080&h=719&q=80&cs=tinysrgb&crop=&bg=");
+     background-size:  cover;
+     padding: 300px;
+     color: blue;
+     text-shadow: 1px 1px 5px gray;
+}
+
+#hero h1{
+  color: onyx ;
+  font-size: 80px;
+}
+
+#hero p{
+  color; white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#footer {
+    text-align: center;
+     padding: 30px;
+     background: rgb( 30, 30, 30);
+     color: lightgrey;
+   }
+
+#footer {
+  color: lightblue;
+  font-size: 15px;  
+}
+
+#footer a:hover{
+  color: white;
+}
+#footer ul {
+  text-align: center;
+}
+#footer ul li {
+  display: inline;
+  text-align: center;
+  padding: 0 50px;
+}
+.link-list {
+  text-align: center;
+}
+
+.link-list li{
+  display: inline;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.card{
+  background-color: rgba(3, 142, 148, 0.5);
+  padding: 10px ;
+  width: 280px;
+  display: inline-block;
+  font-weight: lighter;
+  margin: 90px 0;
+  margin-bottom: 30px;
+  min-height: 250px;
+  vertical-align: top;
+ } 
+
+ .card--highlighted{
+  border:5px solid blue;
+ background-color: lightgreen;
+ width: 275px;
+ min-height: 244px;
+ } 
+
+ img{
+  width: 100px;
+ }
+.fa {
+  font-size: 30px;
+  align-self: center;
+}
